@@ -40,11 +40,13 @@ img {
     justify-content: center;
     li a{
       color: white;
+      cursor: pointer;
       margin-right: 40px;
       justify-content: center;
       height: 28px;
       font-size: 30px;
-      display: inline-block;
+      display: block;
+      text-decoration:none;
     }
   }
 }
@@ -87,6 +89,7 @@ img {
   div ul {
     margin-bottom: 36px;
   }
+  div>p>img,
   >p>img {
     margin-right: 20px;
     width: 44px;
@@ -153,10 +156,12 @@ img {
 
   .footer-inner p span {
     font-size: 16px;
+    vertical-align: middle;
   }
-
+  .footer-inner>div>p>img,
   .footer-inner>p>img {
     width: 14px;
+    
   }
 
   .glass-icon {
