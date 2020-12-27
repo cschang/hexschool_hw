@@ -1,0 +1,176 @@
+body,
+button,
+input,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: MicrosoftYaHei, '宋體', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+
+.perfumeicon{
+  background: url("image/d’Perfume.png")no-repeat;
+  // padding-top: 9px;
+  // padding-bottom: 9px;
+}
+.perfumeicon-white {
+  background: url("image/d’Perfumewhite.png")no-repeat;
+  // padding-top: 9px;
+  // padding-bottom: 9px;
+}
+.liheader {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #8D8D8D;
+  span {
+    margin-left: 3px;
+  }
+}
+.footerli {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.size350x785{
+  width: 350px;
+  height: 785px;
+  margin-right: 30px;
+}
+.size520x730 {
+  width: 730px;
+  height: 520px;
+}
+.perfumeimg{
+  height: 870px;
+  background: url("image/index1.jpg") center center no-repeat;
+  background-size: cover;
+}
+.perfumeimg-bottom {
+  height: 600px;
+  background: url("image/index10.jpg") center center no-repeat;
+  background-size: cover;
+}
+.supersquareperfume {
+  width: 730px;
+  height: 730px;
+}
+.mt80{
+  margin-top: 80px;
+}
+.mb82 {
+  margin-bottom: 82px;
+}
+.squareperfume {
+  width: 555px;
+  height: 555px;
+}
+.rectangleperfume {
+  width: 555px;
+  height: 1080px;
+}
+.top-per-28{
+  margin-top: 28%;
+}
+.size40{
+  font-size: 40px;
+}
+.size32 {
+  font-weight: border;
+  font-size: 32px;
+}
+.size24{
+  font-size: 24px;
+}
+.size20 {
+  font-size: 20px;
+}
+.size16 {
+  font-size: 16px;
+}
+.size14 {
+  font-size: 14px;
+}
+.mb-52 {
+  margin-bottom: 52px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.pt-40{
+  padding-top: 40px;
+}
+.checkmore{
+  color:#AC8A46;
+  font-size: 16px;
+  margin-top: 6px;
+  cursor: pointer;
+  text-decoration:none;
+}
+.w350 {
+  width: 350px;
+}
+.whitecolor{
+  color: white;
+}
+.btntype{
+  padding-top: 15px;
+  height: 60px;
+  border: 2px solid white;
+  text-align: center;
+  border-radius: 30px;
+  color: white;
+}
+.blackbtntype {
+  margin-top: 8px;
+  padding-top: 8px;
+  height: 51px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.banner {
+  margin-bottom: 60px;
+}
+.oldprice {
+  color:#8D8D8D;
+  text-decoration:line-through;
+  margin-left: 8px;
+}
+.subscribebtn{
+  background: #916000;
+  padding-right: 26px;
+  padding-left: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color:white;
+  border: 1px #916000 solid;
+}
+.inputclass{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px #916000 solid;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.mb-12{
+  margin-bottom: 12px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.loginbtn{
+    color:white;
+    border: 1px #916000 solid;
+    background: #916000;
+}
+.registerbtn{
+  border: 1px #916000 solid;
+  color:#916000;
+}
