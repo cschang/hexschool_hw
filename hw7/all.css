@@ -1,0 +1,264 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1.blockelement {
+  width: 300px;
+  height: 30px;
+  background: gray;
+  color: white;
+}
+
+.container {
+  margin-left: 18%;
+}
+
+.container .name {
+  font-size: 80px;
+  margin-top: 47px;
+  border-bottom: 1px solid black;
+  width: 63%;
+  padding-bottom: 17px;
+  margin-bottom: 48px;
+}
+
+.container > img {
+  width: 324px;
+  margin-bottom: 50px;
+}
+
+.container .subtitle {
+  font-weight: bolder;
+  font-size: 32px;
+  width: 63%;
+  border-bottom: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+.container .subtitle span {
+  margin-left: 16px;
+  font-size: 24px;
+  color: #A00404;
+}
+
+.container p {
+  margin-bottom: 24px;
+}
+
+.container .pcenter {
+  width: 642px;
+  margin-left: 26px;
+  border-left: 1px solid black;
+  padding-left: 16px;
+}
+
+.bluescreen {
+  background: #415165;
+  padding-bottom: 36px;
+  margin-bottom: 72px;
+}
+
+.bluescreen-inner {
+  width: 63%;
+  margin: 0 auto;
+  color: white;
+  font-size: 24px;
+}
+
+.bluescreen-inner .ptitle {
+  padding-top: 24px;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bluescreen-inner .ptitle .subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 32px;
+  width: 400px;
+}
+
+.bluescreen-inner .ptitle .subtitle span {
+  margin-left: 16px;
+  font-size: 24px;
+}
+
+.bluescreen-inner .pcenter {
+  width: 200px;
+  margin: 0 auto;
+  border-left: 1px solid white;
+  padding-left: 16px;
+}
+
+.bluescreen-inner .pcontact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bluescreen-inner .pcontact img {
+  margin-right: 24px;
+}
+
+.bluescreen-inner p {
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=all.css.map */
